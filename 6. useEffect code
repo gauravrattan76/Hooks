@@ -1,0 +1,13 @@
+Use Effect -
+_________________________
+
+We are causing the side effect using functional component-
+
+When we use use effect we are telling react to use the effect after every time the component renders.
+
+
+Use effect runs after every render of the component.
+
+Pass function inside the use effect which needs to be called after every render.
+
+
