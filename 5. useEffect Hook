@@ -1,0 +1,38 @@
+Use effect hooks-
+________________________________________-
+
+Updating document title to the current counter value
+
+We need the code in 2 places-
+
+
+componentDidMount(){
+document.title = {this.state.count}
+}
+
+componentDidUpdate(){
+document.title = {this.state.count}
+}
+
+And we want to remove the title on componentWillUnmount
+
+ componentWillUnmount(){
+Remove the code
+}
+
+
+Duplication of code is there.
+
+________________________
+
+useEffect- The use effect hook let us perform the side effects in functional components,
+
+ it is close replacement for componentDidMount, componentWillUpdate and componentWillUnmount.
+
+
+
+
+
+
+
+
