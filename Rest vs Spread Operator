@@ -1,0 +1,52 @@
+Spread operators And rest operators-
+
+_______________________________
+
+So the … dots are called spread operator when it is used for spreading the array or object literals,
+
+It iS called rest operator when it used to hold the rest of params in function call
+
+For arrays-
+
+
+Var arr = [1,2,3]
+
+Var arr1 = […arr,4,5,6]
+
+
+It spreads the arrays 
+
+We get result as = [1,2,3,4,5,6]
+
+
+
+______
+
+
+For objects - var obj1 = {
+    a:1,b:2
+}
+
+var obj2 ={
+    ...obj1,
+    c:3,
+    d:4
+}
+
+console.log(obj2)
+
+
+_________
+
+Rest operator example -
+
+function sum(a,...b){
+console.log(a,b)
+}
+
+sum(2,3,4,5)
+
+
+Output -
+2, [3,4,5]
+
